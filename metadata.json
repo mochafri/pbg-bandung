@@ -1,0 +1,6 @@
+{
+  "name": "PBG Pro Portfolio",
+  "description": "A minimalist corporate portfolio showcasing architecture, construction, and heritage projects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
