@@ -18,7 +18,7 @@ export const projects: Project[] = [
     title: 'Desain Residensial Modern',
     description: 'Konsep hunian tropis modern dengan pencahayaan alami yang optimal (Dummy Text).',
     category: 'Residensial',
-    imageUrl: '/assets/img/proyek/12.png',
+    imageUrl: '/assets/img/proyek/12.webp',
     link: '#'
   },
   {

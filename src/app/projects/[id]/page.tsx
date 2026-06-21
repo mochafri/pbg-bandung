@@ -49,8 +49,8 @@ export default async function ProjectDetail({ params }: Props) {
   const year = project.year || '2024';
   const gallery = project.gallery || [
     project.imageUrl,
-    'https://lh3.googleusercontent.com/aida/AP1WRLsQ4OQHQbws9DTe4K6I4O8Xuqwg9mGZCqujbXhOilbUgR0MgZoTqZ442ZSS_lQqwutfjTjiS8MbVoRtx6ho7BMbOh9O6ZQKJjLkYeXghAdIlX8-v_7HFXlVlssuXTy4hm0yWMVFC5oYWe4i8LOHfmqEiBYj9oLRmG90YtjAS8dklQP9av0vjYdktcN218qBuwV1m-OBQTftrlcbAJ2QrnX1cRAqgNLdTqW5_aU8ACQy1swHPZfykqn3YEUQ',
-    'https://lh3.googleusercontent.com/aida/AP1WRLu9Ut-4nnrIYca7Z391yZS8pIneRYT_RCwy9kASmSBoWagg6fIAKJW_ED05yq_BUoM7Li-l85zFWmL2qlKW7oGgmKEd140CyP0nEyscGJHf1_1L0k30LTcIhqPSMH2EMNNZtFkzIVQ_Zrb01NhKMrDA-xEi3Dc88wT1iXXrAARRtV8sO64QGPMAnlJ-CkqiXKobzao1g9kHJHQn6wL0amfbzpFaWs_fkX9POwlgOKi553yKDR2JXpFivBiA'
+    '/assets/img/proyek/gallery-1.webp',
+    '/assets/img/proyek/gallery-2.webp'
   ];
 
   return (

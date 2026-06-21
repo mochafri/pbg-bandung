@@ -82,7 +82,7 @@ export default function LandingPage() {
           </div>
         </div>
         <div className="animate-hero-img w-full md:w-[45%] h-[400px] md:h-[600px] rounded-2xl overflow-hidden shadow-ambient relative bg-surface-container-low">
-          <Image priority width={1000} height={1000} className="w-full h-full object-cover" alt="Architecture hero" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAI3cy7HzKoq0k817QnsC74WjNAgUNCRcL5X3uY0UMhXiXoDOFuoi4xDZ-5RMibA_lS6G7oTPNzunustK3DSTzoxkaZXtsXIIsmzD9M3_Wzy_DBMnZYmsNMd_IDB2iVhk5JO9J_lP8X8RBG3IQVTqMGIMEIaIVw7jna2BvUq1VwoVw4xvzGTNuMP8SDE1c5_PwhXTxpRBrvHsO61R8U_aS_-hlGxU0N2sEtP1HwTkuigAFqXJNB5smioYk-l7vKS6Ks2qmfIS3J-uSa" />
+          <Image priority width={1000} height={1000} className="w-full h-full object-cover" alt="Architecture hero" src="/assets/img/hero.webp" />
           <div className="absolute bottom-8 left-8 right-8 bg-white/90 backdrop-blur p-6 rounded-xl shadow-ambient border border-white/20 flex items-center gap-4">
             <div className="w-12 h-12 rounded-full bg-tertiary-fixed flex items-center justify-center text-primary-container">
               <Icon icon="material-symbols:verified" className="fill" />
@@ -99,7 +99,7 @@ export default function LandingPage() {
         <div className="max-w-[1280px] mx-auto px-5 md:px-[80px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="animate-fade-up">
-              <Image width={800} height={800} className="rounded-2xl object-cover h-[400px] w-full shadow-ambient opacity-90" alt="Architects meeting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS3Ln2hqJ2QiP_HhioeTr5VVVdOZZ-gWahEfuMfb6Swa_pRo1mQ-EK6Nk0auV4AszrCqQvGvf1_10ZU6Xu024cj4_EtmPvIup_G8FRhzxkVPVPXP9CLLK7ctMwWsxY7PUWsQVE7TIlp91zmWfKENYETTZFPN6Q8XsCmrNpocIJg39HimYSEFvundPbHRlMXv6TJY5-6i1NXdpgR1FUgHALw9VLZ6_yKknsg8w6zVj4l3v36t8C-7gQbGa-0h7VnjW2z2K53HajlV-4" />
+              <Image width={800} height={800} className="rounded-2xl object-cover h-[400px] w-full shadow-ambient opacity-90" alt="Architects meeting" src="/assets/img/about.webp" />
             </div>
             <div className="flex flex-col gap-12">
               <h2 className="animate-fade-up text-[32px] font-normal max-w-lg leading-[1.3]">
