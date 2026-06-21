@@ -135,7 +135,7 @@ export default function PBGService() {
         </section>
 
         {/* FAQ Section */}
-        <section className="bg-surface-container-low py-[120px]">
+        <section className="bg-surface-container-low py-[120px]" id='faq'>
           <div className="max-w-3xl mx-auto px-5 md:px-[80px]">
             <div className="text-center mb-16">
               <h2 className="text-[48px] leading-[1.2] font-normal text-primary mb-4">FAQ PBG Bandung</h2>

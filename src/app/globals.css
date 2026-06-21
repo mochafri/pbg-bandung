@@ -126,3 +126,53 @@ body {
 .material-symbols-outlined.fill {
     font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
+
+/* Custom Button Hover Effects using plain CSS */
+.btn-primary-hover {
+  transition: all 0.3s ease;
+}
+.btn-primary-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 10px 25px rgba(27, 67, 50, 0.3);
+  opacity: 0.95;
+}
+.btn-primary-hover svg {
+  transition: transform 0.3s ease;
+}
+.btn-primary-hover:hover svg {
+  transform: translateX(6px);
+}
+
+.btn-outline-hover {
+  transition: all 0.3s ease;
+}
+.btn-outline-hover:hover {
+  background-color: var(--color-primary-container);
+  color: var(--color-on-primary);
+  transform: translateY(-4px);
+  box-shadow: 0px 10px 25px rgba(27, 67, 50, 0.2);
+}
+.btn-outline-hover svg {
+  transition: transform 0.3s ease;
+}
+.btn-outline-hover:hover svg {
+  transform: translateX(6px);
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 20px 40px rgba(27, 67, 50, 0.15);
+}
+
+.social-hover {
+  transition: all 0.3s ease;
+}
+.social-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 16px rgba(27, 67, 50, 0.2);
+  background-color: var(--color-primary-container);
+  color: var(--color-on-primary);
+}

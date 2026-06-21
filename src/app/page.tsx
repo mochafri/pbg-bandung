@@ -69,13 +69,13 @@ export default function LandingPage() {
       <section id="beranda" className="max-w-[1280px] mx-auto px-5 md:px-[80px] pt-32 pb-12 md:pt-40 md:pb-24 flex flex-col md:flex-row items-center gap-[24px] md:gap-16">
         <div className="w-full md:w-[55%] flex flex-col items-start gap-6">
           <h1 className="animate-hero-text text-[40px] md:text-[64px] font-normal text-primary leading-[1.2] md:leading-[1.1] tracking-[-0.01em] md:tracking-[-0.02em]">
-            Jasa Pengurusan PBG Bandung, Cagar Budaya & Kontraktor Syariah Terpercaya
+            Jasa Pengurusan Persetujuan Bangunan Gedung (PBG) & Cagar Budaya Kota Bandung
           </h1>
           <p className="animate-hero-text text-[18px] text-on-surface-variant max-w-xl leading-[1.6]">
             Solusi legalitas bangunan (PBG/IMB), renovasi cagar budaya, dan konstruksi syariah dengan tenaga ahli bersertifikat SKA/SKK. Cepat, tepat, dan sesuai regulasi SIMBG.
           </p>
           <div className="animate-hero-text pt-4">
-            <a href="https://wa.me/6282312567209" target="_blank" rel="noopener noreferrer" className="bg-primary-container text-on-primary text-[14px] font-semibold tracking-[0.05em] px-8 py-4 rounded-lg hover:scale-[0.98] transition-transform duration-300 flex items-center gap-2 w-max">
+            <a href="https://wa.me/6282312567209" target="_blank" rel="noopener noreferrer" className="btn-primary-hover bg-primary-container text-on-primary text-[14px] font-semibold tracking-[0.05em] px-8 py-4 rounded-lg flex items-center gap-2 w-max">
               Konsultasi Gratis
               <Icon icon="material-symbols:arrow-forward" className="text-sm" />
             </a>
@@ -103,7 +103,7 @@ export default function LandingPage() {
             </div>
             <div className="flex flex-col gap-12">
               <h2 className="animate-fade-up text-[32px] font-normal max-w-lg leading-[1.3]">
-                Dengan pengalaman lebih dari satu dekade, kami menghadirkan solusi arsitektur khusus yang dibangun atas dasar kepercayaan dan nilai-nilai Syariah.
+                Dengan pengalaman lebih dari satu dekade, kami menghadirkan solusi Persetujuan Bangunan Gedung (PBG) baik bangunan komersial dan bangunan cagar budaya Kota Bandung
               </h2>
               <div className="animate-stagger-container grid grid-cols-2 md:grid-cols-3 gap-8 pt-8 border-t border-on-primary/20">
                 <div className="animate-stagger-item">
@@ -138,17 +138,17 @@ export default function LandingPage() {
           </p>
         </div>
         
-        <div className="animate-stagger-container grid grid-cols-1 md:grid-cols-3 gap-[24px]">
+        <div className="animate-stagger-container grid grid-cols-1 md:grid-cols-2 gap-[24px]">
           {/* Service 1 */}
           <div className="animate-stagger-item bg-white rounded-2xl p-8 shadow-ambient hover:shadow-ambient-hover transition-shadow duration-300 border border-transparent hover:border-tertiary-fixed group flex flex-col justify-between h-full">
             <div>
               <div className="w-14 h-14 rounded-xl bg-tertiary-fixed/30 flex items-center justify-center mb-8 group-hover:bg-tertiary-fixed transition-colors">
                 <Icon icon="material-symbols:assignment" className="text-primary-container text-3xl" />
               </div>
-              <h3 className="text-[24px] font-normal text-primary mb-4 leading-[1.3]">Pengurusan PBG</h3>
-              <p className="text-[16px] text-on-surface-variant leading-[1.6]">Proses transparan melalui sistem SIMBG, inklusif dokumen teknis dan sertifikasi tenaga ahli.</p>
+              <h3 className="text-[24px] font-normal text-primary mb-4 leading-[1.3]">PBG Bangunan Komersial</h3>
+              <p className="text-[16px] text-on-surface-variant leading-[1.6]">Proses transparan pengurusan PBG melalui sistem SIMBG untuk bangunan komersial, inklusif dokumen teknis dan sertifikasi tenaga ahli.</p>
             </div>
-            <Link href="/services/pbg" className="mt-6 w-full border-2 border-primary-container text-primary-container text-[14px] font-semibold px-4 py-2 rounded-lg hover:bg-primary-container hover:text-white transition-colors duration-300 flex items-center justify-center gap-2">
+            <Link href="/services/pbg" className="btn-outline-hover mt-6 w-full border-2 border-primary-container text-primary-container text-[14px] font-semibold px-4 py-2 rounded-lg flex items-center justify-center gap-2">
               Selengkapnya <Icon icon="material-symbols:arrow-forward" className="text-sm" />
             </Link>
           </div>
@@ -157,28 +157,12 @@ export default function LandingPage() {
           <div className="animate-stagger-item bg-white rounded-2xl p-8 shadow-ambient hover:shadow-ambient-hover transition-shadow duration-300 border border-transparent hover:border-tertiary-fixed group flex flex-col justify-between h-full">
             <div>
               <div className="w-14 h-14 rounded-xl bg-tertiary-fixed/30 flex items-center justify-center mb-8 group-hover:bg-tertiary-fixed transition-colors">
-                <Icon icon="material-symbols:handshake" className="text-primary-container text-3xl" />
-              </div>
-              <h3 className="text-[24px] font-normal text-primary mb-4 leading-[1.3]">Kontraktor Syariah</h3>
-              <p className="text-[16px] text-on-surface-variant leading-[1.6]">
-                Layanan konstruksi yang transparan dan etis berbasis prinsip syariah. Tanpa biaya tersembunyi, kontrak yang jelas, dan eksekusi berkualitas tinggi.
-              </p>
-            </div>
-            <Link href="/services/syariah" className="mt-6 w-full border-2 border-primary-container text-primary-container text-[14px] font-semibold px-4 py-2 rounded-lg hover:bg-primary-container hover:text-white transition-colors duration-300 flex items-center justify-center gap-2">
-              Selengkapnya <Icon icon="material-symbols:arrow-forward" className="text-sm" />
-            </Link>
-          </div>
-          
-          {/* Service 3 */}
-          <div className="animate-stagger-item bg-white rounded-2xl p-8 shadow-ambient hover:shadow-ambient-hover transition-shadow duration-300 border border-transparent hover:border-tertiary-fixed group flex flex-col justify-between h-full">
-            <div>
-              <div className="w-14 h-14 rounded-xl bg-tertiary-fixed/30 flex items-center justify-center mb-8 group-hover:bg-tertiary-fixed transition-colors">
                 <Icon icon="material-symbols:account-balance" className="text-primary-container text-3xl" />
               </div>
-              <h3 className="text-[24px] font-normal text-primary mb-4 leading-[1.3]">Konservasi Cagar Budaya</h3>
-              <p className="text-[16px] text-on-surface-variant leading-[1.6]">Rekomendasi teknis TACB dan pemugaran bangunan bersejarah sesuai kaidah pelestarian Disbudpar Bandung.</p>
+              <h3 className="text-[24px] font-normal text-primary mb-4 leading-[1.3]">PBG Cagar Budaya</h3>
+              <p className="text-[16px] text-on-surface-variant leading-[1.6]">Rekomendasi teknis TACB dan pengurusan PBG bangunan bersejarah sesuai kaidah pelestarian Disbudpar Bandung.</p>
             </div>
-            <Link href="/services/konservasi" className="mt-6 w-full border-2 border-primary-container text-primary-container text-[14px] font-semibold px-4 py-2 rounded-lg hover:bg-primary-container hover:text-white transition-colors duration-300 flex items-center justify-center gap-2">
+            <Link href="/services/konservasi" className="btn-outline-hover mt-6 w-full border-2 border-primary-container text-primary-container text-[14px] font-semibold px-4 py-2 rounded-lg flex items-center justify-center gap-2">
               Selengkapnya <Icon icon="material-symbols:arrow-forward" className="text-sm" />
             </Link>
           </div>
@@ -196,74 +180,91 @@ export default function LandingPage() {
                 Pilihan kurasi dari intervensi arsitektur, kepatuhan hukum, dan restorasi warisan kami baru-baru ini.
               </p>
             </div>
-            <Link href="/projects" className="text-primary-container border-2 border-primary-container text-[14px] font-semibold px-6 py-3 rounded-lg hover:bg-primary-container hover:text-white transition-colors duration-300 tracking-[0.05em] inline-block">
+            <Link href="/projects" className="btn-outline-hover text-primary-container border-2 border-primary-container text-[14px] font-semibold px-6 py-3 rounded-lg tracking-[0.05em] inline-flex items-center justify-center gap-2">
               Lihat Semua Karya
+              <Icon icon="material-symbols:arrow-forward" className="text-sm" />
             </Link>
           </div>
           
           <div className="animate-stagger-container grid grid-cols-1 md:grid-cols-4 gap-6">
             {/* Project 1 */}
-            <div className="animate-stagger-item group cursor-pointer">
-              <div className="overflow-hidden rounded-2xl mb-6 shadow-ambient h-[300px]">
-                <Image width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Kawasan Cagar Budaya" src="/assets/img/proyek/11.jpeg" />
+            <div className="animate-stagger-item h-full">
+              <div className="group cursor-pointer card-hover bg-white rounded-2xl p-4 border border-transparent h-full flex flex-col">
+                <div className="overflow-hidden rounded-2xl mb-6 shadow-ambient h-[300px]">
+                  <Image priority width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Kawasan Cagar Budaya" src="/assets/img/proyek/11.jpeg" />
+                </div>
+                <div className="flex gap-2 mb-3">
+                  <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Komersial</span>
+                  <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Cagar Budaya</span>
+                </div>
+                <h3 className="text-[20px] font-normal text-primary mb-2 line-clamp-1">Perencanaan Arsitektur Cagar Budaya</h3>
+                <p className="text-[14px] text-on-surface-variant leading-[1.6]">Jalan Naripan No 2B Bandung. Alternatif 1 perencanaan kawasan.</p>
+                <div className="mt-auto pt-4">
+                  <Link href="/projects/1" className="text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
+                    Lihat Detail <Icon icon="material-symbols:arrow-forward" className="text-sm" />
+                  </Link>
+                </div>
               </div>
-              <div className="flex gap-2 mb-3">
-                <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Komersial</span>
-                <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Cagar Budaya</span>
-              </div>
-              <h3 className="text-[20px] font-normal text-primary mb-2 line-clamp-1">Perencanaan Arsitektur Cagar Budaya</h3>
-              <p className="text-[14px] text-on-surface-variant leading-[1.6]">Jalan Naripan No 2B Bandung. Alternatif 1 perencanaan kawasan.</p>
-              <Link href="/projects/1" className="mt-4 text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
-                Lihat Detail <Icon icon="material-symbols:arrow-forward" className="text-sm" />
-              </Link>
             </div>
             
             {/* Project 2 */}
-            <div className="animate-stagger-item group cursor-pointer">
-              <div className="overflow-hidden rounded-2xl mb-6 shadow-ambient h-[300px]">
-                <Image width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Desain Residensial Modern" src="/assets/img/proyek/12.png" />
+            <div className="animate-stagger-item h-full">
+              <div className="group cursor-pointer card-hover bg-white rounded-2xl p-4 border border-transparent h-full flex flex-col">
+                <div className="overflow-hidden rounded-2xl mb-6 shadow-ambient h-[300px]">
+                  <Image priority width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Desain Residensial Modern" src="/assets/img/proyek/12.webp" />
+                </div>
+                <div className="flex gap-2 mb-3">
+                  <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Residensial</span>
+                  <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Konstruksi</span>
+                </div>
+                <h3 className="text-[20px] font-normal text-primary mb-2 line-clamp-1">Desain Residensial Modern</h3>
+                <p className="text-[14px] text-on-surface-variant leading-[1.6]">Konsep hunian tropis modern dengan pencahayaan alami yang optimal (Dummy Text).</p>
+                <div className="mt-auto pt-4">
+                  <Link href="/projects/2" className="text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
+                    Lihat Detail <Icon icon="material-symbols:arrow-forward" className="text-sm" />
+                  </Link>
+                </div>
               </div>
-              <div className="flex gap-2 mb-3">
-                <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Residensial</span>
-                <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Konstruksi</span>
-              </div>
-              <h3 className="text-[20px] font-normal text-primary mb-2 line-clamp-1">Desain Residensial Modern</h3>
-              <p className="text-[14px] text-on-surface-variant leading-[1.6]">Konsep hunian tropis modern dengan pencahayaan alami yang optimal (Dummy Text).</p>
-              <Link href="/projects/2" className="mt-4 text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
-                Lihat Detail <Icon icon="material-symbols:arrow-forward" className="text-sm" />
-              </Link>
             </div>
 
              {/* Project 3 */}
-             <div className="animate-stagger-item group cursor-pointer">
-              <div className="overflow-hidden rounded-2xl mb-6 shadow-ambient h-[300px]">
-                <Image width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Rumah Ibadat Vihara" src="/assets/img/proyek/13.jpeg" />
+             <div className="animate-stagger-item h-full">
+               <div className="group cursor-pointer card-hover bg-white rounded-2xl p-4 border border-transparent h-full flex flex-col">
+                <div className="overflow-hidden rounded-2xl mb-6 shadow-ambient h-[300px]">
+                  <Image width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Rumah Ibadat Vihara" src="/assets/img/proyek/13.jpeg" />
+                </div>
+                <div className="flex gap-2 mb-3">
+                  <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Religius</span>
+                  <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">PBG</span>
+                </div>
+                <h3 className="text-[20px] font-normal text-primary mb-2 line-clamp-1">Rumah Ibadat Vihara</h3>
+                <p className="text-[14px] text-on-surface-variant leading-[1.6]">Perencanaan Rumah Ibadat Vihara berlokasi di Jl. Cibadak, Bandung.</p>
+                <div className="mt-auto pt-4">
+                  <Link href="/projects/3" className="text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
+                    Lihat Detail <Icon icon="material-symbols:arrow-forward" className="text-sm" />
+                  </Link>
+                </div>
               </div>
-              <div className="flex gap-2 mb-3">
-                <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Religius</span>
-                <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">PBG</span>
-              </div>
-              <h3 className="text-[20px] font-normal text-primary mb-2 line-clamp-1">Rumah Ibadat Vihara</h3>
-              <p className="text-[14px] text-on-surface-variant leading-[1.6]">Perencanaan Rumah Ibadat Vihara berlokasi di Jl. Cibadak, Bandung.</p>
-              <Link href="/projects/3" className="mt-4 text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
-                Lihat Detail <Icon icon="material-symbols:arrow-forward" className="text-sm" />
-              </Link>
             </div>
 
              {/* Project 4 */}
-             <div className="animate-stagger-item group cursor-pointer">
-              <div className="overflow-hidden rounded-2xl mb-6 shadow-ambient h-[300px]">
-                <Image width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Toko dan Restoran Braga" src="/assets/img/proyek/14.jpeg" />
+             <div className="animate-stagger-item h-full">
+               <div className="group cursor-pointer card-hover bg-white rounded-2xl p-4 border border-transparent h-full flex flex-col">
+                <div className="overflow-hidden rounded-2xl mb-6 shadow-ambient h-[300px]">
+                  <Image width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Toko dan Restoran Braga" src="/assets/img/proyek/14.jpeg" />
+                </div>
+                <div className="flex gap-2 mb-3">
+                  <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Komersial</span>
+                  <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Cagar Budaya</span>
+                </div>
+                <h3 className="text-[20px] font-normal text-primary mb-2 line-clamp-1">Toko dan Restoran</h3>
+                <p className="text-[14px] text-on-surface-variant leading-[1.6]">Perencanaan arsitektur dan kajian cagar budaya berlokasi di Jl. Braga No.55.</p>
+                <div className="mt-auto pt-4">
+                  <Link href="/projects/4" className="text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
+                    Lihat Detail <Icon icon="material-symbols:arrow-forward" className="text-sm" />
+                  </Link>
+                </div>
               </div>
-              <div className="flex gap-2 mb-3">
-                <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Komersial</span>
-                <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Cagar Budaya</span>
-              </div>
-              <h3 className="text-[20px] font-normal text-primary mb-2 line-clamp-1">Toko dan Restoran</h3>
-              <p className="text-[14px] text-on-surface-variant leading-[1.6]">Perencanaan arsitektur dan kajian cagar budaya berlokasi di Jl. Braga No.55.</p>
-              <Link href="/projects/4" className="mt-4 text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
-                Lihat Detail <Icon icon="material-symbols:arrow-forward" className="text-sm" />
-              </Link>
             </div>
 
           </div>
@@ -294,8 +295,8 @@ export default function LandingPage() {
             <div className="mt-8 pt-8 border-t border-surface-container">
               <h4 className="text-[14px] font-normal text-on-surface-variant uppercase tracking-[0.05em] mb-4">Ikuti Kami di Media Sosial</h4>
               <div className="flex gap-4 mb-4">
-                <a href="https://www.instagram.com/jasapbg_bandung" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-tertiary-fixed/30 flex items-center justify-center text-primary-container hover:bg-primary-container hover:text-white transition-colors duration-300" aria-label="Instagram"><Icon icon="mdi:instagram" className="text-[20px]" /></a>
-                <a href="https://www.facebook.com/share/17yzMc3sLt/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-tertiary-fixed/30 flex items-center justify-center text-primary-container hover:bg-primary-container hover:text-white transition-colors duration-300" aria-label="Facebook"><Icon icon="mdi:facebook" className="text-[20px]" /></a>
+                <a href="https://www.instagram.com/jasapbg_bandung" target="_blank" rel="noopener noreferrer" className="social-hover w-10 h-10 rounded-full bg-tertiary-fixed/30 flex items-center justify-center text-primary-container" aria-label="Instagram"><Icon icon="mdi:instagram" className="text-[20px]" /></a>
+                <a href="https://www.facebook.com/share/17yzMc3sLt/" target="_blank" rel="noopener noreferrer" className="social-hover w-10 h-10 rounded-full bg-tertiary-fixed/30 flex items-center justify-center text-primary-container" aria-label="Facebook"><Icon icon="mdi:facebook" className="text-[20px]" /></a>
               </div>
               <p className="text-[16px] text-on-surface-variant leading-[1.6]">Dapatkan inspirasi arsitektur dan pembaruan proyek terbaru kami setiap hari.</p>
             </div>

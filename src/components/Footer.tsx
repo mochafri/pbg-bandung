@@ -31,9 +31,8 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h4 className="text-[14px] font-normal text-secondary-fixed tracking-[0.05em] uppercase">Layanan Kami</h4>
             <div className="flex flex-col gap-3">
-              <Link className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="/services/pbg">Pengurusan PBG</Link>
-              <Link className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="/services/syariah">Kontraktor Syariah</Link>
-              <Link className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="/services/konservasi">Cagar Budaya</Link>
+              <Link className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="/services/pbg">PBG Bangunan Komersial</Link>
+              <Link className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="/services/konservasi">PBG Cagar Budaya</Link>
               <Link className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="/projects">Portofolio Desain</Link>
             </div>
           </div>
@@ -41,10 +40,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h4 className="text-[14px] font-normal text-secondary-fixed tracking-[0.05em] uppercase">Informasi</h4>
             <div className="flex flex-col gap-3">
-              <Link className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="/services/pbg">FAQ (Tanya Jawab)</Link>
-              <a className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="#">Kebijakan Privasi</a>
-              <a className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="#">Syarat & Ketentuan</a>
-              <a className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="https://wa.me/6282312567209" target="_blank" rel="noopener noreferrer">Dukungan Klien</a>
+              <Link className="text-[16px] text-white/70 hover:text-white transition-colors duration-200" href="/services/pbg#faq">FAQ (Tanya Jawab)</Link>
             </div>
           </div>
         </div>
