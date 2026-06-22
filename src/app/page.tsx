@@ -95,7 +95,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="tentang" className="w-full bg-primary-container text-on-primary py-24 mt-[120px]">
+      <section id="tentang" className="w-full bg-primary-container text-on-primary py-16 md:py-24 mt-16 md:mt-[120px]">
         <div className="max-w-[1280px] mx-auto px-5 md:px-[80px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="animate-fade-up">
@@ -124,7 +124,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="layanan" className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-[120px]">
+      <section id="layanan" className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-16 md:py-[120px]">
         <div className="animate-fade-up flex flex-col items-start mb-16">
           <div className="flex items-center gap-2 mb-4">
             <div className="w-2 h-2 rounded-full bg-primary-container"></div>
@@ -169,7 +169,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="proyek" className="bg-surface-container-low py-[120px]">
+      <section id="proyek" className="bg-surface-container-low py-16 md:py-[120px]">
         <div className="max-w-[1280px] mx-auto px-5 md:px-[80px]">
           <div className="animate-fade-up flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
             <div>
@@ -271,7 +271,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="kontak" className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-[120px]">
+      <section id="kontak" className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-16 md:py-[120px]">
         <div className="animate-fade-up bg-white rounded-3xl p-8 md:p-16 shadow-ambient border border-surface-container flex flex-col md:flex-row gap-16 items-center">
           <div className="w-full md:w-1/2">
             <h2 className="text-[48px] font-normal text-primary mb-6 leading-[1.2]">Siap Membangun dengan Percaya Diri?</h2>

@@ -98,7 +98,7 @@ export default async function ProjectDetail({ params }: Props) {
         </section>
 
         {/* Gallery Section */}
-        <section className="bg-surface-bright py-[120px] border-t border-surface-variant/50">
+        <section className="bg-surface-bright py-16 md:py-[120px] border-t border-surface-variant/50">
           <div className="max-w-[1280px] mx-auto px-5 md:px-[80px]">
             <div className="text-center mb-12">
               <h2 className="text-[48px] leading-[1.2] tracking-tight font-normal text-primary mb-4">Galeri Proyek</h2>

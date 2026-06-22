@@ -14,7 +14,7 @@ export default function KonservasiService() {
     <>
       <main className="flex-grow mt-20">
         {/* Hero Section */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-[120px]">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-16 md:py-[120px]">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
             <div className="md:col-span-6 space-y-6">
               <div className="inline-block bg-tertiary-fixed text-primary px-4 py-1.5 rounded-full text-[12px] leading-[1.4] font-semibold tracking-wider">
@@ -43,7 +43,7 @@ export default function KonservasiService() {
         </section>
 
         {/* Specialized Expertise Bento Grid */}
-        <section className="bg-surface-container-low py-[120px]">
+        <section className="bg-surface-container-low py-16 md:py-[120px]">
           <div className="max-w-[1280px] mx-auto px-5 md:px-[80px]">
             <div className="mb-16">
               <h2 className="text-[48px] leading-[1.2] font-normal text-primary mb-4">Keahlian Khusus</h2>
@@ -97,7 +97,7 @@ export default function KonservasiService() {
         </section>
 
         {/* Methodology Split Section */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-[120px]">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-16 md:py-[120px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="order-2 md:order-1 relative h-[600px] rounded-xl overflow-hidden shadow-ambient">
               <Image fill className="object-cover" alt="Methodology" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJPiFpptZrQOdygQgp5mPF640EnygkLEthFep7a9fSRm6UmgeSSrvxUhxwYfnPiXFv-cTtpnDhc0iAJLYI5J59BenRwyG0ImW1Iu3XbqzNFTRK6ukjxsXA3_v-zv2fv40_qYrJ0W6IwU7_BKf35jRkPuzWR8kyHxliqkJMBG45waZJrRBlaDMpMhLmHsQFJYu8mONOePU2WJ4VK-BsaVhY5EjHsChzdomum8Bm7f_Q0NRIplRToy8SFWQ2By2UmJUfc-aFafkCwet-" />
@@ -129,7 +129,7 @@ export default function KonservasiService() {
         </section>
 
         {/* Why Preserve / Bandung Identity */}
-        <section className="bg-primary py-[120px] relative overflow-hidden">
+        <section className="bg-primary py-16 md:py-[120px] relative overflow-hidden">
           <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(#ffffff 1px, transparent 1px)", backgroundSize: "24px 24px" }}></div>
           <div className="max-w-[1280px] mx-auto px-5 md:px-[80px] relative z-10 text-center">
             <h2 className="text-[40px] md:text-[48px] leading-[1.2] font-normal text-white mb-6 max-w-3xl mx-auto">
@@ -155,7 +155,7 @@ export default function KonservasiService() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-[120px] bg-surface">
+        <section className="py-16 md:py-[120px] bg-surface">
           <div className="max-w-[1280px] mx-auto px-5 md:px-[80px]">
             <div className="bg-surface-container-low rounded-2xl p-12 md:p-20 text-center shadow-ambient border border-surface-variant">
               <h2 className="text-[40px] md:text-[64px] leading-[1.2] md:leading-[1.1] font-normal text-primary mb-6">Mulai Proyek Konservasi Anda</h2>

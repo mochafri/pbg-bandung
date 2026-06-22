@@ -14,7 +14,7 @@ export default function PBGService() {
     <>
       <main className="flex-grow mt-20">
         {/* Hero Section */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] pt-12 pb-[120px] grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] pt-12 pb-16 md:pb-[120px] grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
           <div className="lg:col-span-6 space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-tertiary-fixed rounded-full">
               <Icon icon="material-symbols:verified-user" className="text-primary text-sm" />
@@ -51,7 +51,7 @@ export default function PBGService() {
         </section>
 
         {/* Process Section */}
-        <section id="proses" className="bg-surface-container-lowest py-[120px]">
+        <section id="proses" className="bg-surface-container-lowest py-16 md:py-[120px]">
           <div className="max-w-[1280px] mx-auto px-5 md:px-[80px]">
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="text-[48px] leading-[1.2] tracking-tight font-normal text-primary mb-6">Alur Pengurusan PBG</h2>
@@ -82,7 +82,7 @@ export default function PBGService() {
         </section>
 
         {/* Benefits Section */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-[120px]">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-16 md:py-[120px]">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             <div className="lg:col-span-4 flex flex-col justify-center">
               <h2 className="text-[48px] leading-[1.2] tracking-tight font-normal text-primary mb-6">Mengapa Memilih Kami?</h2>
@@ -135,7 +135,7 @@ export default function PBGService() {
         </section>
 
         {/* FAQ Section */}
-        <section className="bg-surface-container-low py-[120px]" id='faq'>
+        <section className="bg-surface-container-low py-16 md:py-[120px]" id='faq'>
           <div className="max-w-3xl mx-auto px-5 md:px-[80px]">
             <div className="text-center mb-16">
               <h2 className="text-[48px] leading-[1.2] font-normal text-primary mb-4">FAQ PBG Bandung</h2>
@@ -164,7 +164,7 @@ export default function PBGService() {
         </section>
 
         {/* CTA Section */}
-        <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-[120px]">
+        <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-16 md:py-[120px]">
           <div className="bg-primary rounded-2xl p-12 md:p-20 relative overflow-hidden text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary-container rounded-full blur-3xl opacity-50 pointer-events-none"></div>
             <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-tertiary-container rounded-full blur-3xl opacity-50 pointer-events-none"></div>
