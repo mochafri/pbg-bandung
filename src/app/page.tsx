@@ -72,7 +72,7 @@ export default function LandingPage() {
             Jasa Pengurusan Persetujuan Bangunan Gedung (PBG) & Cagar Budaya Kota Bandung
           </h1>
           <p className="animate-hero-text text-[18px] text-on-surface-variant max-w-xl leading-[1.6]">
-            Solusi legalitas bangunan (PBG/IMB), renovasi cagar budaya, dan konstruksi syariah dengan tenaga ahli bersertifikat SKA/SKK. Cepat, tepat, dan sesuai regulasi SIMBG.
+            Solusi legalitas bangunan (PBG/IMB) dan renovasi cagar budaya dengan tenaga ahli bersertifikat SKA/SKK. Cepat, tepat, dan sesuai regulasi SIMBG.
           </p>
           <div className="animate-hero-text pt-4">
             <a href="https://wa.me/6282312567209" target="_blank" rel="noopener noreferrer" className="btn-primary-hover bg-primary-container text-on-primary text-[14px] font-semibold tracking-[0.05em] px-8 py-4 rounded-lg flex items-center gap-2 w-max">
