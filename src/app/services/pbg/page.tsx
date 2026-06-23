@@ -20,10 +20,10 @@ export default function PBGService() {
               <Icon icon="material-symbols:verified-user" className="text-primary text-sm" />
               <span className="text-primary text-[14px] leading-none tracking-[0.05em] font-semibold">Layanan Profesional Bandung</span>
             </div>
-            <h1 className="text-[40px] md:text-[64px] leading-[1.2] tracking-tight font-normal text-primary">
+            <h1 className="text-[32px] md:text-[64px] leading-[1.2] tracking-tight font-normal text-primary">
               Jasa Pengurusan PBG <span className="bg-gradient-to-r from-primary-container to-secondary text-transparent bg-clip-text">Bandung</span>
             </h1>
-            <p className="text-[18px] leading-[1.6] text-on-surface-variant max-w-xl">
+            <p className="text-[16px] md:text-[18px] leading-[1.6] text-on-surface-variant max-w-xl">
               Solusi terpadu untuk Persetujuan Bangunan Gedung (PBG) di wilayah Bandung Raya. Kami memastikan proses legalitas bangunan Anda berjalan efisien, akurat, dan sesuai dengan regulasi terbaru SIMBG.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -54,8 +54,8 @@ export default function PBGService() {
         <section id="proses" className="bg-surface-container-lowest py-16 md:py-[120px]">
           <div className="max-w-[1280px] mx-auto px-5 md:px-[80px]">
             <div className="text-center max-w-3xl mx-auto mb-16">
-              <h2 className="text-[48px] leading-[1.2] tracking-tight font-normal text-primary mb-6">Alur Pengurusan PBG</h2>
-              <p className="text-[18px] leading-[1.6] text-on-surface-variant">
+              <h2 className="text-[32px] md:text-[48px] leading-[1.2] tracking-tight font-normal text-primary mb-6">Alur Pengurusan PBG</h2>
+              <p className="text-[16px] md:text-[18px] leading-[1.6] text-on-surface-variant">
                 Kami menyederhanakan birokrasi yang kompleks menjadi proses 4 langkah yang transparan dan dapat dipantau.
               </p>
             </div>
@@ -71,9 +71,9 @@ export default function PBGService() {
                     <Icon icon={item.icon} className="text-[80px] text-primary" />
                   </div>
                   <div className={`w-16 h-16 ${item.active ? 'bg-primary-container text-white' : 'bg-primary-fixed text-primary'} rounded-xl flex items-center justify-center mb-6`}>
-                    <span className="text-[32px] leading-[1.3] font-bold">{item.step}</span>
+                    <span className="text-[24px] md:text-[32px] leading-[1.3] font-bold">{item.step}</span>
                   </div>
-                  <h3 className="text-[18px] leading-[1.6] font-normal text-primary mb-3">{item.title}</h3>
+                  <h3 className="text-[16px] md:text-[18px] leading-[1.6] font-normal text-primary mb-3">{item.title}</h3>
                   <p className="text-[16px] leading-[1.6] text-on-surface-variant">{item.desc}</p>
                 </div>
               ))}
@@ -85,8 +85,8 @@ export default function PBGService() {
         <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-16 md:py-[120px]">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             <div className="lg:col-span-4 flex flex-col justify-center">
-              <h2 className="text-[48px] leading-[1.2] tracking-tight font-normal text-primary mb-6">Mengapa Memilih Kami?</h2>
-              <p className="text-[18px] leading-[1.6] text-on-surface-variant mb-8">
+              <h2 className="text-[32px] md:text-[48px] leading-[1.2] tracking-tight font-normal text-primary mb-6">Mengapa Memilih Kami?</h2>
+              <p className="text-[16px] md:text-[18px] leading-[1.6] text-on-surface-variant mb-8">
                 Keamanan investasi properti Anda bergantung pada legalitas yang kuat. Kami hadir untuk memberikan kepastian hukum dengan proses yang transparan.
               </p>
               <ul className="space-y-4">
@@ -102,7 +102,7 @@ export default function PBGService() {
               <div className="bg-primary-container p-8 rounded-xl flex flex-col justify-between h-full min-h-[300px]">
                 <Icon icon="material-symbols:speed" className="text-4xl text-secondary-fixed mb-4" />
                 <div>
-                  <h3 className="text-[32px] leading-[1.3] font-normal text-white mb-3">Efisiensi Waktu</h3>
+                  <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-normal text-white mb-3">Efisiensi Waktu</h3>
                   <p className="text-[16px] leading-[1.6] text-primary-fixed-dim">
                     Pengalaman kami berinteraksi dengan birokrasi lokal memastikan proses review dan revisi dokumen berjalan jauh lebih cepat dari standar.
                   </p>
@@ -111,7 +111,7 @@ export default function PBGService() {
               <div className="bg-white p-8 rounded-xl shadow-ambient border border-surface-variant flex flex-col justify-between h-full min-h-[300px]">
                 <Icon icon="material-symbols:shield-locked" className="text-4xl text-primary mb-4" />
                 <div>
-                  <h3 className="text-[32px] leading-[1.3] font-normal text-primary mb-3">Keamanan Legal</h3>
+                  <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-normal text-primary mb-3">Keamanan Legal</h3>
                   <p className="text-[16px] leading-[1.6] text-on-surface-variant">
                     Menghindari risiko pembongkaran atau denda di masa depan dengan memastikan setiap meter persegi bangunan tercatat resmi.
                   </p>
@@ -124,7 +124,7 @@ export default function PBGService() {
                   </div>
                 </div>
                 <div className="w-full md:w-2/3">
-                  <h3 className="text-[32px] leading-[1.3] font-normal text-primary mb-3">Pendampingan Penuh</h3>
+                  <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-normal text-primary mb-3">Pendampingan Penuh</h3>
                   <p className="text-[16px] leading-[1.6] text-on-surface-variant">
                     Kami tidak hanya menyiapkan gambar, tapi bertindak sebagai representasi Anda dalam setiap sidang TPA/TPT hingga SK PBG terbit.
                   </p>
@@ -138,8 +138,8 @@ export default function PBGService() {
         <section className="bg-surface-container-low py-16 md:py-[120px]" id='faq'>
           <div className="max-w-3xl mx-auto px-5 md:px-[80px]">
             <div className="text-center mb-16">
-              <h2 className="text-[48px] leading-[1.2] font-normal text-primary mb-4">FAQ PBG Bandung</h2>
-              <p className="text-[18px] leading-[1.6] text-on-surface-variant">Pertanyaan umum seputar pengurusan Persetujuan Bangunan Gedung</p>
+              <h2 className="text-[32px] md:text-[48px] leading-[1.2] font-normal text-primary mb-4">FAQ PBG Bandung</h2>
+              <p className="text-[16px] md:text-[18px] leading-[1.6] text-on-surface-variant">Pertanyaan umum seputar pengurusan Persetujuan Bangunan Gedung</p>
             </div>
             <div className="space-y-4">
               {[
@@ -149,7 +149,7 @@ export default function PBGService() {
               ].map((faq, i) => (
                 <details key={i} className="group bg-white rounded-xl shadow-ambient border border-transparent hover:border-tertiary-fixed transition-colors">
                   <summary className="flex justify-between items-center p-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                    <h3 className="text-[18px] leading-[1.6] font-normal text-primary">{faq.q}</h3>
+                    <h3 className="text-[16px] md:text-[18px] leading-[1.6] font-normal text-primary">{faq.q}</h3>
                     <Icon icon="material-symbols:expand-more" className="text-primary transition-transform duration-300 group-open:rotate-180" />
                   </summary>
                   <div className="px-6 pb-6">
@@ -169,8 +169,8 @@ export default function PBGService() {
             <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary-container rounded-full blur-3xl opacity-50 pointer-events-none"></div>
             <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-tertiary-container rounded-full blur-3xl opacity-50 pointer-events-none"></div>
             <div className="relative z-10 max-w-2xl">
-              <h2 className="text-[48px] leading-[1.2] font-normal text-white mb-6">Siap Mengurus Legalitas Bangunan Anda?</h2>
-              <p className="text-[18px] leading-[1.6] text-primary-fixed-dim mb-0">
+              <h2 className="text-[32px] md:text-[48px] leading-[1.2] font-normal text-white mb-6">Siap Mengurus Legalitas Bangunan Anda?</h2>
+              <p className="text-[16px] md:text-[18px] leading-[1.6] text-primary-fixed-dim mb-0">
                 Jangan biarkan proyek tertunda karena kendala administrasi. Hubungi ahli kami hari ini untuk konsultasi awal mengenai kebutuhan PBG Anda di Bandung.
               </p>
             </div>

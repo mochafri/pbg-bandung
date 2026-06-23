@@ -20,10 +20,10 @@ export default function KonservasiService() {
               <div className="inline-block bg-tertiary-fixed text-primary px-4 py-1.5 rounded-full text-[12px] leading-[1.4] font-semibold tracking-wider">
                 LAYANAN SPESIALIS
               </div>
-              <h1 className="text-[40px] md:text-[64px] leading-[1.2] md:leading-[1.1] tracking-tight font-normal text-primary">
+              <h1 className="text-[32px] md:text-[64px] leading-[1.2] md:leading-[1.1] tracking-tight font-normal text-primary">
                 Konservasi & Restorasi Cagar Budaya.
               </h1>
-              <p className="text-[18px] leading-[1.6] text-on-surface-variant max-w-lg">
+              <p className="text-[16px] md:text-[18px] leading-[1.6] text-on-surface-variant max-w-lg">
                 Menjaga warisan masa lalu untuk masa depan. Kami menyeimbangkan pelestarian nilai historis dengan kebutuhan fungsional modern, memastikan bangunan cagar budaya Anda tetap berdiri kokoh dan relevan.
               </p>
               <div className="pt-4 flex flex-col sm:flex-row gap-4">
@@ -46,8 +46,8 @@ export default function KonservasiService() {
         <section className="bg-surface-container-low py-16 md:py-[120px]">
           <div className="max-w-[1280px] mx-auto px-5 md:px-[80px]">
             <div className="mb-16">
-              <h2 className="text-[48px] leading-[1.2] font-normal text-primary mb-4">Keahlian Khusus</h2>
-              <p className="text-[18px] leading-[1.6] text-on-surface-variant max-w-2xl">
+              <h2 className="text-[32px] md:text-[48px] leading-[1.2] font-normal text-primary mb-4">Keahlian Khusus</h2>
+              <p className="text-[16px] md:text-[18px] leading-[1.6] text-on-surface-variant max-w-2xl">
                 Pendekatan teknis yang presisi untuk memenuhi standar ketat pelestarian cagar budaya, memastikan integritas struktural tanpa mengorbankan nilai sejarah.
               </p>
             </div>
@@ -57,7 +57,7 @@ export default function KonservasiService() {
                 <div className="w-12 h-12 rounded-lg bg-tertiary-fixed flex items-center justify-center mb-6 text-primary">
                   <Icon icon="material-symbols:assignment-turned-in" />
                 </div>
-                <h3 className="text-[32px] leading-[1.3] font-normal text-primary mb-3">Rekomendasi TACB</h3>
+                <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-normal text-primary mb-3">Rekomendasi TACB</h3>
                 <p className="text-[16px] leading-[1.6] text-on-surface-variant">
                   Pendampingan komprehensif dalam penyusunan kajian dan permohonan rekomendasi Tim Ahli Cagar Budaya (TACB), memastikan seluruh intervensi desain memenuhi regulasi pelestarian.
                 </p>
@@ -67,7 +67,7 @@ export default function KonservasiService() {
                 <div className="w-12 h-12 rounded-lg bg-tertiary-fixed flex items-center justify-center mb-6 text-primary">
                   <Icon icon="material-symbols:architecture" />
                 </div>
-                <h3 className="text-[32px] leading-[1.3] font-normal text-primary mb-3">Penguatan Struktural Heritage</h3>
+                <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-normal text-primary mb-3">Penguatan Struktural Heritage</h3>
                 <p className="text-[16px] leading-[1.6] text-on-surface-variant max-w-xl">
                   Aplikasi teknik rekayasa modern yang non-intrusif (seperti retrofitting seismik tersembunyi) untuk memperkuat bangunan bersejarah tanpa merusak fasad atau elemen interior yang bernilai tinggi.
                 </p>
@@ -77,7 +77,7 @@ export default function KonservasiService() {
                 <div className="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center mb-6 text-white">
                   <Icon icon="material-symbols:texture" />
                 </div>
-                <h3 className="text-[32px] leading-[1.3] font-normal text-white mb-3">Autentikasi Material</h3>
+                <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-normal text-white mb-3">Autentikasi Material</h3>
                 <p className="text-[16px] leading-[1.6] text-primary-fixed-dim max-w-xl">
                   Sourcing dan replikasi material historis (tegel kunci, plesteran kapur khusus, profil kayu jati lawas) yang identik dengan spesifikasi bangunan asli, menjaga keaslian tekstur dan warna.
                 </p>
@@ -87,7 +87,7 @@ export default function KonservasiService() {
                 <div className="w-12 h-12 rounded-lg bg-tertiary-fixed flex items-center justify-center mb-6 text-primary">
                   <Icon icon="material-symbols:history-edu" />
                 </div>
-                <h3 className="text-[32px] leading-[1.3] font-normal text-primary mb-3">Dokumentasi As-Built</h3>
+                <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-normal text-primary mb-3">Dokumentasi As-Built</h3>
                 <p className="text-[16px] leading-[1.6] text-on-surface-variant">
                   Pemindaian laser 3D dan fotogrametri untuk menghasilkan dokumentasi presisi tinggi sebelum dan sesudah proses restorasi dilakukan.
                 </p>
@@ -104,8 +104,8 @@ export default function KonservasiService() {
             </div>
             <div className="order-1 md:order-2 space-y-8">
               <div>
-                <h2 className="text-[48px] leading-[1.2] font-normal text-primary mb-4">Metodologi Restorasi</h2>
-                <p className="text-[18px] leading-[1.6] text-on-surface-variant">
+                <h2 className="text-[32px] md:text-[48px] leading-[1.2] font-normal text-primary mb-4">Metodologi Restorasi</h2>
+                <p className="text-[16px] md:text-[18px] leading-[1.6] text-on-surface-variant">
                   Proses konservasi kami sangat terstruktur, meminimalkan intervensi dan memaksimalkan preservasi.
                 </p>
               </div>
@@ -132,10 +132,10 @@ export default function KonservasiService() {
         <section className="bg-primary py-16 md:py-[120px] relative overflow-hidden">
           <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(#ffffff 1px, transparent 1px)", backgroundSize: "24px 24px" }}></div>
           <div className="max-w-[1280px] mx-auto px-5 md:px-[80px] relative z-10 text-center">
-            <h2 className="text-[40px] md:text-[48px] leading-[1.2] font-normal text-white mb-6 max-w-3xl mx-auto">
+            <h2 className="text-[32px] md:text-[48px] leading-[1.2] font-normal text-white mb-6 max-w-3xl mx-auto">
               Mengapa Pelestarian Itu Penting?
             </h2>
-            <p className="text-[18px] leading-[1.6] text-primary-fixed-dim max-w-2xl mx-auto mb-12">
+            <p className="text-[16px] md:text-[18px] leading-[1.6] text-primary-fixed-dim max-w-2xl mx-auto mb-12">
               Arsitektur bersejarah adalah jiwa kota. Di Bandung, bangunan-bangunan kolonial dan art deco bukan sekadar struktur, melainkan identitas kultural yang memberikan nilai tambah komersial dan estetika yang tak tergantikan.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mt-16">
@@ -146,7 +146,7 @@ export default function KonservasiService() {
               ].map((item, i) => (
                 <div key={i} className="bg-white/5 border border-white/10 p-6 rounded-xl backdrop-blur-sm">
                   <Icon icon={item.icon} className="text-secondary-fixed mb-4 text-[32px] block" />
-                  <h4 className="text-[24px] leading-[1.3] font-normal text-white mb-2">{item.title}</h4>
+                  <h4 className="text-[20px] md:text-[24px] leading-[1.3] font-normal text-white mb-2">{item.title}</h4>
                   <p className="text-[16px] leading-[1.6] text-white/80">{item.desc}</p>
                 </div>
               ))}
@@ -158,8 +158,8 @@ export default function KonservasiService() {
         <section className="py-16 md:py-[120px] bg-surface">
           <div className="max-w-[1280px] mx-auto px-5 md:px-[80px]">
             <div className="bg-surface-container-low rounded-2xl p-12 md:p-20 text-center shadow-ambient border border-surface-variant">
-              <h2 className="text-[40px] md:text-[64px] leading-[1.2] md:leading-[1.1] font-normal text-primary mb-6">Mulai Proyek Konservasi Anda</h2>
-              <p className="text-[18px] leading-[1.6] text-on-surface-variant max-w-2xl mx-auto mb-10">
+              <h2 className="text-[32px] md:text-[64px] leading-[1.2] md:leading-[1.1] font-normal text-primary mb-6">Mulai Proyek Konservasi Anda</h2>
+              <p className="text-[16px] md:text-[18px] leading-[1.6] text-on-surface-variant max-w-2xl mx-auto mb-10">
                 Diskusikan visi Anda dengan tim ahli pelestarian kami. Kami siap memberikan panduan awal mengenai regulasi TACB dan potensi restorasi bangunan Anda.
               </p>
               <a href="https://wa.me/6282312567209" target="_blank" className="bg-primary text-white text-[14px] leading-none tracking-[0.05em] font-semibold px-10 py-4 rounded-lg hover:bg-primary-container transition-all hover:scale-[0.98] shadow-lg shadow-primary/20 inline-block">
