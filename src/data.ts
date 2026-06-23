@@ -15,7 +15,7 @@ export const projects: Project[] = [
   },
   {
     id: '2',
-    title: 'Bangunan Dr. Otten',
+    title: 'Bangunan Komersial JL. Dr. Otten No. 14 BandungOtten',
     description: 'Perencanaan dan kajian cagar budaya Bangunan Dr. Otten, Bandung.',
     category: 'Cagar Budaya',
     imageUrl: '/assets/img/BangunanDrOtten/1.webp',
@@ -39,7 +39,7 @@ export const projects: Project[] = [
   },
   {
     id: '3',
-    title: 'SD Edu Global',
+    title: 'SD Edu Global - Citarum 35',
     description: 'Perencanaan dan pembangunan fasilitas pendidikan SD Edu Global, Bandung.',
     category: 'Komersial',
     imageUrl: '/assets/img/SdEduGlobal/1.webp',
@@ -72,7 +72,7 @@ export const projects: Project[] = [
   },
   {
     id: '4',
-    title: 'Kidang Pananjung',
+    title: 'Kidang Pananjung No.5 B Bandung',
     description: 'Perencanaan dan kajian cagar budaya Kidang Pananjung, Bandung.',
     category: 'Cagar Budaya',
     imageUrl: '/assets/img/KidangPananjung/1.webp',

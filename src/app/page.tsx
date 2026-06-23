@@ -138,7 +138,7 @@ export default function LandingPage() {
           </p>
         </div>
         
-        <div className="animate-stagger-container grid grid-cols-1 md:grid-cols-2 gap-[24px]">
+        <div className="animate-stagger-container grid grid-cols-1 md:grid-cols-2 gap-gutter">
           {/* Service 1 */}
           <div className="animate-stagger-item bg-white rounded-2xl p-8 shadow-ambient hover:shadow-ambient-hover transition-shadow duration-300 border border-transparent hover:border-tertiary-fixed group flex flex-col justify-between h-full">
             <div>
@@ -331,7 +331,7 @@ export default function LandingPage() {
                 <div className="flex gap-2 mb-3">
                   <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Cagar Budaya</span>
                 </div>
-                <h3 className="text-[20px] font-medium text-primary mb-2 line-clamp-1">Kidang Pananjung</h3>
+                <h3 className="text-[20px] font-medium text-primary mb-2 line-clamp-1">Kidang Pananjung No.5 B Bandung</h3>
                 <p className="text-[14px] text-on-surface-variant leading-[1.6]">Perencanaan dan kajian cagar budaya Kidang Pananjung, Bandung.</p>
                 <div className="mt-auto pt-4">
                   <Link href="/projects/4" className="text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">

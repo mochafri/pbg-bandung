@@ -37,7 +37,7 @@ export default function PBGService() {
           </div>
           <div className="lg:col-span-6 mt-12 lg:mt-0 relative">
             <div className="absolute inset-0 bg-primary-fixed blur-3xl opacity-30 rounded-full"></div>
-            <Image priority width={1000} height={600} alt="Arsitektur Modern Bandung" className="w-full h-[600px] object-cover rounded-xl shadow-ambient relative z-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9rFmnQPuTrLIKSPfWGLGK7AIcYgrQeTNst62OwWtBO0pD73K3NR3BddtKqUmyJu0KdzPG2tMSM3XuMcLMb9emLj2ev2rkaGG0RoVXVdvvKpE9Z_Ue6ZXxv1-YzJ6Yo_IE0cJgL2vsnBawpIftphZLokvxNgJPe-qcBvbcQoCzjQnXP09K5ONFQtDUyrGMTd8pwfcHRvgQ35mKSH24rf2MNaGVpGgszZFSlcQ9lx0KScA35kvTTtNpQWamwiwuS8h-wpvSm915iQfQ" />
+            <Image priority width={1000} height={600} alt="Arsitektur Modern Bandung" className="w-full h-[600px] object-cover rounded-xl shadow-ambient relative z-10" src="/assets/img/services/pbg-hero.webp" />
             <div className="absolute bottom-10 -left-10 bg-white p-6 rounded-xl shadow-ambient z-20 hidden md:flex items-center gap-4">
               <div className="w-12 h-12 bg-tertiary-fixed rounded-full flex items-center justify-center">
                 <Icon icon="material-symbols:task-alt" className="text-primary" />

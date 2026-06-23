@@ -48,9 +48,7 @@ export default async function ProjectDetail({ params }: Props) {
   const location = project.location || 'Bandung, Jawa Barat';
   const year = project.year || '2024';
   const gallery = project.gallery || [
-    project.imageUrl,
-    '/assets/img/proyek/gallery-1.webp',
-    '/assets/img/proyek/gallery-2.webp'
+    project.imageUrl
   ];
 
   return (

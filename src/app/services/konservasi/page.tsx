@@ -36,7 +36,7 @@ export default function KonservasiService() {
               </div>
             </div>
             <div className="md:col-span-6 mt-12 md:mt-0 relative h-[500px] rounded-xl overflow-hidden shadow-ambient">
-              <Image priority fill className="object-cover" alt="Restoration process" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDO73Sr6jhhbZ-312O50oWPpAXpzVHbQW7cf3-E42tfCQmJoCJ0zb7zY9d9XP5QacnA3X3u7mKF4ZkWu3bHb4E-9MgYeaGsgT6rn5qipuXF_oNUNIBxXVOk6w21jyKZxWE5cCOGw-nTMAx07aitdnh-JzpsMxSY8wxqIH25_v7ObzOtSYKGzCoy1RKn6dmEfFtfollI95OIVtaC865yt-UYcpyesv7NKtilcFRDyXwcdq_m2X1iZsmk7OfHQy2_8vn60sOJq5QHOqw_" />
+              <Image priority fill className="object-cover" alt="Restoration process" src="/assets/img/services/konservasi-hero.webp" />
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent mix-blend-multiply"></div>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function KonservasiService() {
         <section className="max-w-[1280px] mx-auto px-5 md:px-[80px] py-16 md:py-[120px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="order-2 md:order-1 relative h-[600px] rounded-xl overflow-hidden shadow-ambient">
-              <Image fill className="object-cover" alt="Methodology" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJPiFpptZrQOdygQgp5mPF640EnygkLEthFep7a9fSRm6UmgeSSrvxUhxwYfnPiXFv-cTtpnDhc0iAJLYI5J59BenRwyG0ImW1Iu3XbqzNFTRK6ukjxsXA3_v-zv2fv40_qYrJ0W6IwU7_BKf35jRkPuzWR8kyHxliqkJMBG45waZJrRBlaDMpMhLmHsQFJYu8mONOePU2WJ4VK-BsaVhY5EjHsChzdomum8Bm7f_Q0NRIplRToy8SFWQ2By2UmJUfc-aFafkCwet-" />
+              <Image fill className="object-cover" alt="Methodology" src="/assets/img/services/konservasi-method.webp" />
             </div>
             <div className="order-1 md:order-2 space-y-8">
               <div>
