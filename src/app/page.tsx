@@ -134,7 +134,7 @@ export default function LandingPage() {
             Layanan Utama Kami
           </h2>
           <p className="text-[16px] md:text-[18px] text-on-surface-variant mt-6 max-w-3xl leading-[1.6]">
-            Berfokus pada kebutuhan unik Anda, tim kami memberikan solusi yang memadukan pengetahuan peraturan yang mendalam, keunggulan arsitektur, dan praktik konstruksi etis untuk memastikan integritas struktural yang tahan lama.
+            Menyelesaikan kebutuhan PBG anda baik bangunan komersial, bangunan cagar budaya dan kawasan cagar budaya dengan kajian yang sesuai dengan aturan yang berlaku.
           </p>
         </div>
         
@@ -268,16 +268,15 @@ export default function LandingPage() {
             <div className="animate-stagger-item h-full">
               <div className="group cursor-pointer card-hover bg-white rounded-2xl p-4 border border-transparent h-full flex flex-col">
                 <div className="overflow-hidden rounded-2xl mb-6 shadow-ambient h-[300px]">
-                  <Image priority width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Kawasan Cagar Budaya" src="/assets/img/proyek/11.jpeg" />
+                  <Image priority width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Pelestarian Bangunan Cagar Budaya Kota Bandung" src="/assets/img/proyek/bandung.webp" />
                 </div>
                 <div className="flex gap-2 mb-3">
-                  <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Komersial</span>
                   <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Cagar Budaya</span>
                 </div>
-                <h3 className="text-[20px] font-medium text-primary mb-2 line-clamp-1">Perencanaan Arsitektur Cagar Budaya</h3>
-                <p className="text-[14px] text-on-surface-variant leading-[1.6]">Jalan Naripan No 2B Bandung. Alternatif 1 perencanaan kawasan.</p>
+                <h3 className="text-[20px] font-medium text-primary mb-2 line-clamp-1">Pelestarian Bangunan Cagar Budaya Kota Bandung</h3>
+                <p className="text-[14px] text-on-surface-variant leading-[1.6]">Upaya pelestarian dan perawatan bangunan cagar budaya di Kota Bandung untuk menjaga nilai historis.</p>
                 <div className="mt-auto pt-4">
-                  <Link href="/projects/1" className="text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
+                  <Link href="/projects/13" className="text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
                     Lihat Detail <Icon icon="material-symbols:arrow-forward" className="text-sm" />
                   </Link>
                 </div>
@@ -326,15 +325,15 @@ export default function LandingPage() {
              <div className="animate-stagger-item h-full">
                <div className="group cursor-pointer card-hover bg-white rounded-2xl p-4 border border-transparent h-full flex flex-col">
                 <div className="overflow-hidden rounded-2xl mb-6 shadow-ambient h-[300px]">
-                  <Image width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Kidang Pananjung" src="/assets/img/KidangPananjung/1.webp" />
+                  <Image width={600} height={600} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Peta Kawasan Kota bandung" src="/assets/img/proyek/peta.webp" />
                 </div>
                 <div className="flex gap-2 mb-3">
                   <span className="bg-tertiary-fixed/50 text-primary-container text-[12px] font-medium px-3 py-1 rounded-full">Cagar Budaya</span>
                 </div>
-                <h3 className="text-[20px] font-medium text-primary mb-2 line-clamp-1">Kidang Pananjung No.5 B Bandung</h3>
-                <p className="text-[14px] text-on-surface-variant leading-[1.6]">Perencanaan dan kajian cagar budaya Kidang Pananjung, Bandung.</p>
+                <h3 className="text-[20px] font-medium text-primary mb-2 line-clamp-1">Peta Kawasan Kota bandung</h3>
+                <p className="text-[14px] text-on-surface-variant leading-[1.6]">komitmen mendukung pelestarian cagar budaya kota bandung</p>
                 <div className="mt-auto pt-4">
-                  <Link href="/projects/4" className="text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
+                  <Link href="/projects/14" className="text-primary-container text-[14px] font-semibold flex items-center gap-1 hover:gap-2 transition-all">
                     Lihat Detail <Icon icon="material-symbols:arrow-forward" className="text-sm" />
                   </Link>
                 </div>

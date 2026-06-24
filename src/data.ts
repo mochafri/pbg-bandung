@@ -159,5 +159,21 @@ export const projects: Project[] = [
     category: 'Religius',
     imageUrl: '/assets/img/proyek/22.jpeg',
     link: '#'
+  },
+  {
+    id: '13',
+    title: 'Pelestarian Bangunan Cagar Budaya Kota Bandung',
+    description: 'Upaya pelestarian dan perawatan bangunan cagar budaya di Kota Bandung untuk menjaga nilai historis.',
+    category: 'Cagar Budaya',
+    imageUrl: '/assets/img/proyek/bandung.webp',
+    link: '#'
+  },
+  {
+    id: '14',
+    title: 'Peta Kawasan Kota bandung',
+    description: 'komitmen mendukung pelestarian cagar budaya kota bandung',
+    category: 'Cagar Budaya',
+    imageUrl: '/assets/img/proyek/peta.webp',
+    link: '#'
   }
 ];
