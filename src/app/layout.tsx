@@ -35,6 +35,10 @@ export const metadata: Metadata = {
     description: 'Solusi legalitas bangunan (PBG/IMB), renovasi cagar budaya, dan konstruksi syariah dengan tenaga ahli bersertifikat SKA/SKK.',
     images: ['/assets/img/logo.webp'],
   },
+  icons: {
+    icon: '/assets/img/logo.webp',
+    apple: '/assets/img/logo.webp',
+  },
 };
 
 const jsonLd = {
